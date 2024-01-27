@@ -1,23 +1,24 @@
-import { FaUsersCog } from "react-icons/fa";
-import { MdOutlineAddCircleOutline } from "react-icons/md";
+import { Link } from "react-router-dom"
+import { navLinks } from "../../data"
+import { FaFacebookF } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import Icon from "./Icon";
 const Navbar = () => {
+
     return (
-        <div className=" w-full fixed top-0 left-0 bg-black h-[4rem] px-3 grid place-items-center text-slate-50">
-            <div className="container flex items-center justify-between lg:justify-around ">
-                <h2 className="text-center font-bold text-xl  text-slate-50 shadow-lg">  Sachin Blog </h2>
-                <nav className=" hidden lg:flex gap-8 font-medium  text-slate-300 ">
-                    <a href="home"> Home </a>
-                    <a href="blogs"> blogs </a>
-                    <a href="blogs"> About </a>
-                    <a href="blogs"> Recent blog  </a>
-                    <a href="blogs"> Tesitmonial </a>
-                </nav>
-                <div className="flex gap-8 ">
-                    <FaUsersCog className="text-2xl " />
-                    <MdOutlineAddCircleOutline className="text-2xl " />
-                </div>
+        <nav className="w-full  h-[4rem] flex items-center justify-around px-2 py-1 lg:justify-around  ">
+            <h2 className="font-bold text-2xl "> Sachin Blog </h2>
+            <ul className=" hidden lg:flex gap-9 font-medium">
+                {
+                    navLinks.map(({ path, text }) => (<li key={path}> <Link to={path}> {text} </Link>   </li>))
+                }
+
+            </ul>
+            <div className="flex gap-9 ">
+                <Icon icon={<FaFacebookF />} color={"text-slate-50"} bgColor={"bg-indigo-600"} />
+                <Icon icon={<FaXTwitter />} color={"text-slate-50"} bgColor={"bg-indigo-600"} />
             </div>
-        </div>
+        </nav>
     )
 }
 

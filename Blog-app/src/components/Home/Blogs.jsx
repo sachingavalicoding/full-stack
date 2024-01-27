@@ -8,7 +8,7 @@ const data = [
     subtitle: 'Learn the basics of React Hooks and how to use them in your projects.',
     content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
     author: 'John Doe',
-    image: 'https://source.unsplash.com/800x400/?react,programming',
+    image: '/images/coding/react.jpg',
   },
   {
     id: 2,
@@ -16,7 +16,7 @@ const data = [
     subtitle: 'Explore different CSS-in-JS libraries and techniques for styling React components.',
     content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
     author: 'Jane Smith',
-    image: 'https://source.unsplash.com/800x400/?css,design',
+    image: '/images/coding/reactNative.jpg',
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const data = [
     subtitle: 'Deep dive into Arrow Functions and Destructuring in JavaScript ES6.',
     content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
     author: 'Alex Johnson',
-    image: 'https://source.unsplash.com/800x400/?javascript,code',
+    image: '/images/coding/javascript.jpg',
   },
   {
     id: 4,
@@ -32,7 +32,7 @@ const data = [
     subtitle: 'Master the art of building responsive layouts using CSS Flexbox.',
     content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
     author: 'Emily Brown',
-    image: 'https://source.unsplash.com/800x400/?flexbox,design',
+    image: '/images/coding/html.jpg',
   },
   {
     id: 5,
@@ -40,7 +40,7 @@ const data = [
     subtitle: 'Explore the fundamentals of Node.js and its role in server-side development.',
     content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
     author: 'Chris Wilson',
-    image: 'https://source.unsplash.com/800x400/?nodejs,code',
+    image: '/images/coding/database.jpg',
   },
   {
     id: 6,
@@ -48,7 +48,7 @@ const data = [
     subtitle: 'Introduction to GraphQL and how it revolutionizes API development.',
     content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
     author: 'Sophia Carter',
-    image: 'https://source.unsplash.com/800x400/?graphql,programming',
+    image: '/images/coding/react.jpg',
   },
   {
     id: 7,
@@ -56,7 +56,7 @@ const data = [
     subtitle: 'Comparing state management options in React, including Redux and Context API.',
     content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
     author: 'David Miller',
-    image: 'https://source.unsplash.com/800x400/?react,redux',
+    image: '/images/coding/html.jpg',
   },
   {
     id: 8,
@@ -64,7 +64,7 @@ const data = [
     subtitle: 'Ensuring your web applications are accessible to all users.',
     content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
     author: 'Grace White',
-    image: 'https://source.unsplash.com/800x400/?accessibility,design',
+    image: '/images/coding/javascript.jpg',
   },
   {
     id: 9,
@@ -72,7 +72,7 @@ const data = [
     subtitle: 'Introduction to Jest for testing JavaScript applications.',
     content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
     author: 'Michael Green',
-    image: 'https://source.unsplash.com/800x400/?jest,programming',
+    image: '/images/coding/react.jpg',
   },
   {
     id: 10,
@@ -80,7 +80,7 @@ const data = [
     subtitle: 'Guide to deploying React applications on various platforms.',
     content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
     author: 'Jessica Adams',
-    image: 'https://source.unsplash.com/800x400/?react,deployment',
+    image: '/images/coding/reactNative.jpg',
   },
 ];
 

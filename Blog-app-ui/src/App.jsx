@@ -5,7 +5,7 @@ import Navbar from "./components/ui/Navbar"
 
 const App = () => {
   return (
-    <div className="w-full min-h-screen bg-slate-950">
+    <div className=" min-h-screen w-full mx-auto bg-slate-950">
       <Navbar />
       <HeroPage />
       <Blogs />

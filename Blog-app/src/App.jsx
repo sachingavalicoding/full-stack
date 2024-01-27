@@ -1,16 +1,23 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Blogs from "./components/Home/Blogs"
-import HeroPage from "./components/Home/HeroPage"
 import Footer from "./components/ui/Footer"
 import Navbar from "./components/ui/Navbar"
+import Home from "./components/Home/Home"
+import Contact from "./components/contact/Contact"
+import NavbarSm from "./components/ui/NavbarSm"
 
 const App = () => {
   return (
-    <div className=" min-h-screen w-full mx-auto bg-slate-950">
+    <BrowserRouter>
       <Navbar />
-      <HeroPage />
-      <Blogs />
+      <NavbarSm />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/blogs" element={<Blogs />} />
+      </Routes>
       <Footer />
-    </div>
+    </BrowserRouter>
   )
 }
 
