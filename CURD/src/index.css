@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  input {
+    @apply bg-transparent px-2 py-2 w-full border-b-[1px] text-[1rem] text-red-500 font-medium;
+  }
+  button {
+    @apply font-medium border-[1px]  transition-all ease-in 
+         border-red-500  rounded-md text-red-500 cursor-pointer px-2 py-2 text-[0.8rem] hover:bg-red-500 bg-transparent hover:text-slate-50 md:text-[1rem];
+  }
+}

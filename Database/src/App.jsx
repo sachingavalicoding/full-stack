@@ -26,6 +26,10 @@ const App = () => {
       {
         (data.map((item) => <h1 key={item.$id}> {item.name} {item.$id} {item.content} {item.email} </h1>))
       }
+
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia cumque, cum sit odit debitis tenetur! Soluta et tenetur omnis nihil dicta deleniti distinctio. Doloremque id sequi quidem facere a aperiam quos distinctio cum, deleniti doloribus ratione laborum veritatis neque sit ipsum labore beatae corrupti magni necessitatibus consectetur ab? Eaque dicta quia velit id amet nostrum delectus deleniti accusamus dolore. Voluptatibus odit mollitia, fugit repellendus nisi similique vero cum magni dolorum quaerat accusamus, amet sed debitis itaque eveniet nostrum est eius inventore corporis maiores impedit laudantium eum quidem! Incidunt iure totam rerum, mollitia placeat labore itaque doloremque exercitationem, distinctio sit voluptas.
+      </p>
     </div>
   )
 }
